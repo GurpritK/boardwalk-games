@@ -105,6 +105,11 @@ h2 {
     color: var(--secondary-color);
 }
 
+/* makes the opening times table take on the properties of bootstrap class table-dark, and here we make the table's background transparent */
+#contact  .table-dark * {
+    background-color: transparent;
+}
+
 
 /* grid visualisation CSS for testing */
 /* .container, .row {

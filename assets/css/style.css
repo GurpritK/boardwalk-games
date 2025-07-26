@@ -160,6 +160,11 @@ h2 {
     #services .card-body{
         min-height: auto;
     }  
+
+    #reservation > .row{
+    padding-left: 100px;
+    padding-right: 100px;
+}
 }
 
 /* XL devices (tablets, 1200px and up) */

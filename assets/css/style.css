@@ -15,6 +15,8 @@
 
 body{
     font-family: var(--primary-font);
+    padding-top: 57.15px; /* pushes the top of the header down under the fixed navbar */
+
 }
 
 h1, h2, h3 {
@@ -99,6 +101,11 @@ h2 {
     border: none;
 }
 
+#opening-times{
+    overflow: auto;
+
+}
+
 /* footer / contact */
 #contact {
     background-color: var(--primary-color);
@@ -145,6 +152,8 @@ h2 {
     border: 2px solid white;
     background-color: lightgray;
 } */
+
+
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {

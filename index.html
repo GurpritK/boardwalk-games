@@ -22,7 +22,7 @@
 </head>
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
     <div class="container">
         <a class="navbar-brand" href="index.html"><img src="assets/images/logo-sm-white.png" alt="Boardwalk Games Logo" class="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -269,37 +269,36 @@
                 <!-- Opening times -->
                 <div class="col-12 col-md-6 col-xl-4">
                     <h3 class="sub-heading-color">Opening times</h3>
-                    <table class="table table-dark" >
-                        <thead>
-                            <tr>
-                            <th scope="col">Day</th>
-                            <th scope="col">Open</th>
-                            <th scope="col">Close</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                            <th scope="row">Mon</th>
-                            <td colspan="2">Closed</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">Tue-Thur</th>
-                            <td>11am</td>
-                            <td>11pm</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">Fri-Sat</th>
-                            <td>11am</td>
-                            <td>12am</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">Sunday</th>
-                            <td>12pm</td>
-                            <td>7pm</td>
-                            </tr>
-                        </tbody>
+                        <table id="opening-times" class="table table-dark" >
+                            <thead>
+                                <tr>
+                                <th scope="col">Day</th>
+                                <th scope="col">Open</th>
+                                <th scope="col">Close</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <th scope="row">Mon</th>
+                                <td colspan="2">Closed</td>
+                                </tr>
+                                <tr>
+                                <th scope="row">Tue-Thur</th>
+                                <td>11am</td>
+                                <td>11pm</td>
+                                </tr>
+                                <tr>
+                                <th scope="row">Fri-Sat</th>
+                                <td>11am</td>
+                                <td>12am</td>
+                                </tr>
+                                <tr>
+                                <th scope="row">Sunday</th>
+                                <td>12pm</td>
+                                <td>7pm</td>
+                                </tr>
+                            </tbody>
                         </table>
-
                 </div>
             </div>
         </div>
